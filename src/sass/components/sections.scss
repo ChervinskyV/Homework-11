@@ -1,0 +1,32 @@
+.section {
+  margin-top: 56px;
+}
+.section__title {
+  font-size: 48px;
+  font-family: $secondary-font;
+  line-height: 32px;
+  text-align: center;
+  padding-bottom: 64px;
+}
+.section__title:after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background-color: $section-color;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.section__title-logo {
+  font-size: 24px;
+  font-family: $decorate-font;
+  line-height: 1.2;
+  text-align: center;
+}
+.section__title-subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}

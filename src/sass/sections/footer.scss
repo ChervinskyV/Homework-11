@@ -1,0 +1,65 @@
+.footer {
+  display: flex;
+  position: relative;
+}
+.footer::before {
+  width: 1200px;
+  height: 1px;
+  background-color: $footer-color;
+  content: '';
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+}
+.footer__section {
+  padding: 12px 0px 12px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__logo {
+  font-family: $secondary-font;
+  display: flex;
+}
+.footer__form {
+  display: inline;
+  border: 1px solid $footer-color;
+}
+.footer__link {
+  align-items: center;
+  color: $section-color;
+}
+.footer__input {
+  width: 234px;
+  height: 40px;
+  border-style: none;
+  border-width: 1px;
+  margin-left: 10px;
+}
+.footer__input::placeholder {
+  color: $footer-color;
+  font-style: italic;
+}
+.footer__input-button {
+  font-size: 14px;
+  color: $nav-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-color: $decorate-color;
+  width: 150px;
+  height: 41px;
+  border-style: none;
+  cursor: pointer;
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .header {
+    background-image: linear-gradient(
+        rgba(243, 129, 129, 0.9),
+        rgba(252, 227, 138, 0.9)
+      ),
+      url(../images/background@2x.png);
+  }
+}

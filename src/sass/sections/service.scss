@@ -1,0 +1,36 @@
+.service__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card__item {
+  width: 390px;
+  height: 96px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+}
+.card__icon {
+  display: block;
+  width: 58px;
+  height: 58px;
+  fill: rgb(149, 225, 211);
+  margin: 0px 31px 44px 0px;
+}
+
+.card__title {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.card__subscribe {
+  font-size: 15px;
+  font-family: $secondary-font;
+  color: $second-font-color;
+  line-height: 1.6;
+  text-align: left;
+  width: 269px;
+  height: 39px;
+}
